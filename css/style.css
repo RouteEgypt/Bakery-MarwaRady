@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.binner{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/drew-coffman-1872.jpg) ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    
+}
+.binner-container{
+    width: 50%;
+    /*background-color: teal;*/
+    margin:auto;
+    text-align: center;
+    color: #ffffff;
+    line-height: 50px;
+
+}
+.binner-container p{
+    margin: 15px;
+    font-size: 25px;
+    color: #E5E5E5;
+}
+.binner-container h1{
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Alegreya SC', serif;
+    
+}
+.binner-container button{
+    padding: 15px 20px;
+    margin: 5px;
+    color: #E5E5E5;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+.grwBut{
+    background-color:#8e7754 ;
+    border: 2px solid transparent;
+}
+.binner-container button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.whiteButt{
+    background-color: transparent;
+    border: #ffffff solid 2px;
+}
+nav{
+    width: 85%;
+    
+    position: fixed;
+    top: 0;
+    left: 100px;
+}
+.clear-fix{
+    clear: both;
+}
+.navList{
+    
+    float: right;
+}
+.logo{
+    width: 15%;
+    float: left;
+    padding: 15px;
+    margin:10px ;
+    color: #E5E5E5;
+}
+.logo img{
+    width: 100%;
+}
+.navListCont ul>li{
+    
+    margin:25px 10px;
+    float: left;
+}
+.navListCont ul>li a{
+    color:#E5E5E5;
+    font-size: 18px;
+}
+.navListCont ul>li a:hover{
+    color: #F4A261;
+}
+.photo-porjct {
+    width: 50%;
+    float: left;
+}
+.photo-porjct img{
+    width: 90%;
+}
+.txt-prject{
+    margin: auto;
+    width: 48%;
+    float: right;
+    font-size: 17px;
+    padding: 10px;
+    color: #686868;
+}
+.txt-prject h2{
+    font-weight: lighter;
+    color: #303030;
+    font-size: 35px;
+}
+.contianer{
+    width: 85%;
+    margin: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+.icon-list li>i{
+    line-height: 50px;
+
+}
+
+.icon-item {
+    padding: 5px;
+    border: rgba(0,0,0,.15) solid 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #8e7754;
+    font-weight: lighter;
+
+}
+.icon li>span{
+    margin:15px;
+}
+.other-color{
+    
+    background-color:#f8f8f8;
+    padding: 20px 0;
+}
+.speacing{
+    line-height: 100px;
+}
+
+.baking-contianer{
+    margin: auto;
+    font-weight: lighter;
+    width: 85%;
+    text-align: center;
+    font-size: 17px;
+    color: #686868;
+}
+.our-Baking-inerr{
+    width: 33.3%;
+    float: left;
+}
+.our-Baking-inerr img{
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+.baking-tital h2{
+    color:#303030;
+    font-size: 30px;
+    margin: 15px;
+    padding-bottom: 10px;
+}
+.our-Baking-inerr h3{
+    color:#303030 ;
+    margin: 15px;
+
+}
+.icon-inf{
+    padding: 8px;
+    background-color: #8e7754;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #E5E5E5;
+    margin-right: 15px ;
+}
+.icon-inf-map{
+    line-height: 50px;
+}
+.fooder-container{
+    background-color: #403d38;
+}
+.inerr-fooder{
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+    line-height: 40px;
+    color: #969696;
+
+}
+.item-fooder{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+hr{
+    border: solid rgba(255,255,255,0.05) .5px;
+    
+}
+.inerr-fooder h3{
+    color: #ffffff;
+}
+.item-fooder ul>li{
+padding: 5px;
+}
+.item-fooder span{
+    margin-left: 10px;
+}
+.map-bg{
+    background-image: url(../images/contact-details-map.png);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat:no-repeat ;
+}
+.Floge{
+    padding: 15px;
+    background-color: #353330;
+    text-align: center;
+    
+}
+.SocialIcon ul>li{
+    margin: 15px 0 15px 7px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #403d38;
+    
+}
+.SocialIcon a{
+    color: #686868;
+}
+.SocialIcon a:hover{
+    color: #E5E5E5;
+}
+.SocialIcon ul>.fcolor:hover {
+    background-color: blue;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.SocialIcon ul>.gcolor:hover{
+    background-color: brown;
+
+}
+.SocialIcon ul>.twcolor:hover{
+    background-color:rgb(28, 145, 223);
+
+}
+.SocialIcon ul>.inscolor:hover{
+    background-color:rgb(139, 44, 6);
+}
+.txt-footer p{
+    color: #686868;
+}
+
